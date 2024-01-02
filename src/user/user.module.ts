@@ -16,7 +16,7 @@ import { RolesService } from './roles.service';
     }),
     MongooseModule.forRootAsync({
       useFactory: ()=>({
-        uri: process.env.MONGO_URI || process.env.LOCAL_MONGO_URI,
+        uri: process.env.MONGO_URI,
       })
     }),
     MongooseModule.forFeature([

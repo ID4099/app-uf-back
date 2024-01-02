@@ -37,14 +37,14 @@ El presente repositorio consta de la exposición del servicio API para la conver
 
 ### Instalación y arranque
 
-- Clona el repositorio con el comando "git clone https://github.com/tu-usuario/my-repo.git"
-- cd /my-repo
-- Una vez clonado el repositorio ejecuta el comando "npm install" ó "yarn install"
-- Posteriormente ejecuta el comando "npm start:dev" para el arranque del servidor local en node js
+- Clona el repositorio con el comando "git clone https://github.com/ID4099/app-uf-back.git".
+- cd /app-uf-back.
+- Una vez clonado el repositorio ejecuta el comando "npm install" ó "yarn install".
+- Posteriormente ejecuta el comando "npm start:dev" para el arranque del servidor local en node js.
 
 ### Arranque alternativo con Docker
 
-Si quieres arrancar la aplicación mediante contenedores docker con respectivas dependencias; hacerlo simplemente con lo siguiente:
+Si quieres arrancar el ecosistema de app+mongoDB mediante contenedores docker con respectivas dependencias; hacerlo simplemente con lo siguiente:
 
-- Ejecuta el comando "docker-compose up" ó " docker-compose up -d"
-- Tambien puedes hacer lo mismo con los comandos "docker build -t my-app-uf-back" y una vez levantado la imagen ejecutar "docker run -p 3000:3000 my-app-uf-back" iniciando por defecto en el puerto 3000
+- Ejecuta el comando "docker-compose up" ó " docker-compose up -d", una vez hecho esto; te levantará una instancia de MongoDB en local expuesta en el puerto 27020.
+- Tambien puedes hacer lo mismo con los comandos "docker build -t my-app-uf-back ." y una vez levantado la imagen ejecutar "docker run -p 3000:3000 my-app-uf-back" iniciando por defecto en el puerto 3000.
